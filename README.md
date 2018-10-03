@@ -2,6 +2,11 @@
 -----------------------------------
 ### This repository contains code used to run forward simulations under a constant population size model and a model of plausible demographic history for protein truncating variants (PTVs) from Fuller et al. (2018) "Measuring Intolerance to Mutation in Human Genetics"
 
+#### Requirements
+Compiled with: 
+ - Boost 1.67
+ - gcc 4.9
+
 #### To compile
 ```
 g++ -O3 -std=c++11 PTV_count_simulations.cpp -o PTV_count_simulations
