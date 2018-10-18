@@ -24,4 +24,4 @@ Or, to run 1000 simulations for a gene of typical length (225 PTV mutational opp
 ```
 PTV_count_simulations 1.5e-8 225 0.5 0.5 1000 0 100000
 ```
-The simulation writes to stdout, and each line contains the number of segregating PTV counts in the population matching the number of Non-Finnish Europeans contained in EXaC (30370 individuals) from the end of each simulation run. 
+The simulation writes to stdout, and each line contains the number of segregating PTV counts in the population matching the number of Non-Finnish Europeans contained in EXaC (33370 individuals) from the end of each simulation run. 
