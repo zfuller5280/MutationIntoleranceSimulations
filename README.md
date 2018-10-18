@@ -25,3 +25,8 @@ Or, to run 1000 simulations for a gene of typical length (225 PTV mutational opp
 PTV_count_simulations 1.5e-8 225 0.5 0.5 1000 0 100000
 ```
 The simulation writes to stdout, and each line contains the number of segregating PTV counts in the population matching the number of Non-Finnish Europeans contained in EXaC (33370 individuals) from the end of each simulation run. 
+
+#### Methods for the Figure Legend from Fuller et al. (2018)
+
+##### 1A
+This panel show the cumulative probability and density of pLI for two parameter combinations (blue line: s=0.1,h=0.9; red line: s=0.9,h=0.1) for a hypothetical gene with 225 PTV mutational opportunities and a mutation rate of 1.5e-8 under a constant population size of 100,000 individuals. 
