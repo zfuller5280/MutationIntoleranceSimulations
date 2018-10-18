@@ -120,7 +120,7 @@ int main(int argc, char *argv[]){
       }
       for(int i=0;i<length;i++){
         if(freqs[i]!=0){
-          obs_num = boost_binom(60706, freqs[i]);
+          obs_num = boost_binom(66740, freqs[i]);
           if (obs_num > 0){
             freq_sum += freqs[i];
             n_seg += 1;
