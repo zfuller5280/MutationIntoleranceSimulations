@@ -85,8 +85,6 @@ pli_scores<-vector()
 count=1
 for(i in seq(0,20)){
   pli_scores[count]<-calc_pli(i,18)
-  #prec_scores[i]<-calc_pli(i,70)[2]
-  #pnull_scores[i]<-calc_pli(i,70)[1]
   count=count+1
 }
 ````
