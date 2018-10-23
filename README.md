@@ -58,7 +58,7 @@ This shows the probability of observing a PTV count of 3 (generated from a singl
 ````
 PTV_count_simulations 1.5e-8 225 0.1 0.9 1 1 0
 ````
-Then, 1000000 simulations were run for each s and h parameter combination in the grid s=[0.01,0.02...0.99,1] and h=[0,0.01...0.99,1]. The output of each simulation was stored in a 3d Python numpy array, which was then used to estimate the likelihood of observing a PTV count of 3 across the parameter space using the script ptv_sim_lkhd.py.
+Then, 1000000 simulations were run for each s and h parameter combination in the grid s=[0.01,0.02...0.99,1] and h=[0,0.01...0.99,1]. The output of each simulation was stored in a 3d Python numpy array, which was then used to estimate the likelihood of observing a PTV count of 3 across the parameter space using the script `ptv_count_lkhd.py`.
 
 ##### 1D
 This panel shows the behavior of pLI as a function of hs. The three lines correspond to three different gene lenths of PTV mutational opportunities (cyan=112, purple=225, yellow=550). The calculation of pLI requires an "expected" number of PTVs. To obtain a neutral expected number of PTVs for each gene length, we ran 1000000 simulation replicates with s=0,h=0:
