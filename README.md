@@ -81,8 +81,13 @@ PTV_count_simulations 1.5e-8 225 0 0 1000000 1 0
 ````
 The mean of this distribution (PTVs=18) was then used as the expected number of PTVs in the calculation of pLI. The red line shows what the value of pLI is for possible observed PTV counts for this expected value. To generate these values, the following R code was used:
 ````
+pli_scores<-vector()
+count=1
 for(i in seq(0,20)){
-   calc_pli(i,18)
+  pli_scores[count]<-calc_pli(i,18)
+  #prec_scores[i]<-calc_pli(i,70)[2]
+  #pnull_scores[i]<-calc_pli(i,70)[1]
+  count=count+1
 }
 ````
 The inset in the plot shows the density of pLI scores calculated for each replicate in the simulations.
