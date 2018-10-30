@@ -1,4 +1,4 @@
-#Functions to calculate pLI, pREC, and pNULL from observed and expected PTV counts. The initial pi's used in the function are those obtained from Lek et al. (2016)
+#Function to calculate pLI. The initial pi's used in the function are those obtained from Lek et al. (2016)
 calc_pli<-function(obs, exp){
   init_pis<-c(0.2075797,0.4887326,0.3036877)
   lambdas<-c(1,0.463,0.089)
